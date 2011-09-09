@@ -1,1 +1,1 @@
-This is a sample application for exercise. [*sample_app](https://github.com/alexsunc/sample_app)
+This is a sample application for exercise. [*sample_app*](https://github.com/alexsunc/sample_app)
