@@ -32,6 +32,7 @@ gem 'mysql2', '~> 0.2.6'
    gem 'ZenTest'
    gem 'watchr'
    gem 'webrat'
+ #  gem 'capybara'
  end
 
  group :test do
@@ -40,5 +41,6 @@ gem 'mysql2', '~> 0.2.6'
    gem 'ZenTest'
    gem 'watchr'
    gem 'webrat'
+ #  gem 'capybara'
  end
 
