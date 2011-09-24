@@ -7,6 +7,7 @@ gem 'rails', '3.0.9'
 
 gem 'mysql2', '~> 0.2.6'
 gem 'gravatar_image_tag'
+gem 'will_paginate'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -34,6 +35,7 @@ gem 'gravatar_image_tag'
    gem 'watchr'
    gem 'webrat'
    gem 'annotate'
+   gem 'faker'
  #  gem 'capybara'
  end
 
