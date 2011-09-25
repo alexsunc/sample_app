@@ -57,10 +57,11 @@ class UsersController < ApplicationController
   
   private
   
-    def authenticate
-      # flash[:notice] = "Please sign in to access this page."
-      deny_access unless signed_in?
-    end
+    # Put it in the Helper
+    # def authenticate
+    #       # flash[:notice] = "Please sign in to access this page."
+    #       deny_access unless signed_in?
+    #     end
     
     # Put it in the Helper
     # def deny_access
