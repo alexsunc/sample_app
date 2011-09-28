@@ -31,7 +31,9 @@ class User < ActiveRecord::Base
   
   def feed
     # self.microposts
-    Micropost.where("user_id = ?", id)
+    # Micropost.where("user_id = ?", id)
+    Micropost.from_users_followed_by(self)
+    # Micropost.where("user_id IN (#{followed_ids}) OR user_id = ?" user)
   end
   
   def following?(followed)
